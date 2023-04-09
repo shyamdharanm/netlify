@@ -1,6 +1,6 @@
-<script>
+
   function target() {
-    var form = document.getElementById('HTMLFORM');
+    let form = document.getElementById('HTMLFORM');
     var firstname = form.elements['firstname'].value;
     var middlename = form.elements['middlename'].value;
     const lastname = form.elements['lastname'].value;
@@ -10,4 +10,3 @@
     console.log('Last Name:', lastname);
     console.log('Email:', email);
   }
-</script>
