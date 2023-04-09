@@ -1,9 +1,9 @@
 
   function target() {
     let form = document.getElementById('HTMLFORM');
-    var firstname = form.elements['firstname'].value;
-    var middlename = form.elements['middlename'].value;
-    const lastname = form.elements['lastname'].value;
+    let firstname = form.elements['firstname'].value;
+    let middlename = form.elements['middlename'].value;
+    let lastname = form.elements['lastname'].value;
     var email = form.elements['email'].value;
     console.log('First Name:', firstname);
     console.log('Middle Name:', middlename);
